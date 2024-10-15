@@ -16,15 +16,27 @@ Make sure you set your base dicretory to a folder where you want to have your sc
 base_directory = ""
 ```
 
-Once you set the two variables above you can run from your command line by simply running 
+
+
+To use this project, open up a web browser and navigate to your favorite online poker site (any should work).
+
+Once you set the two variables above you can run from your command line by simply running the below code. You will be prompted to select which window on your computer is open to your preferred poker website. 
+
 ```
 python poker_bot.py
 ```
+The project is open source and I made it in an afternoon for fun. 
 
-The project is open source. Feel free to make any suggestions or improvements. 
-
-Key Issues
-- Response time is too slow (averaging about 7 seconds)
+Key Issues/Things to Improve
+- Response time is too slow (averaging about 7 seconds) for real cash play
   - That is without maintaining a history of hands played which could be useful to learn how players are responding
   - This gets very slow if we start embedding past images in the message history
-- Base prompt can definitely be improved and a model could be fine tuned on poker hands. 
+      - This can be addressed by having the model return a summary of the last hands played.
+- Base prompt can definitely be improved and a model could be fine tuned on poker hands.
+
+Feel free to make any suggestions or improvements. 
+
+email: hisam.sabouni@outlook.com
+x: @hisamsabouni
+in: /hisamsabouni
+
