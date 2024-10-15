@@ -18,7 +18,7 @@ base_directory = ""
 
 
 
-To use this project, open up a web browser and navigate to your favorite online poker site (any should work).
+To use this project, open up a web browser and navigate to your favorite online poker site (any should work; see screenshots example - the project works on WSOP and Zynga Poker).
 
 Once you set the two variables above you can run from your command line by simply running the below code. You will be prompted to select which window on your computer is open to your preferred poker website. 
 
